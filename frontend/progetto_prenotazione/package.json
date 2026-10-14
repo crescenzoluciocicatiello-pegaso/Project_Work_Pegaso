@@ -1,0 +1,30 @@
+{
+  "name": "progetto_prenotazione",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.11.1",
+    "nuxt": "^4.4.8",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0",
+    "zod": "^4.6.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "@parcel/watcher@2.5.6": true,
+    "vue-demi@0.14.10": true
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.132",
+    "prettier": "^3.9.9"
+  }
+}
